@@ -1,0 +1,41 @@
+.header-container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  width: 900px;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap:wrap;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.basketball {
+  justify-content: center;
+}
+.jimmy,.ad,.lebron {
+  margin-bottom: 100px;
+}
+.title {
+  font-size: 100px;
+}
+.final {
+  margin-top: 20px;
+  text-align: center;
+  border-bottom: 5px solid black;
+}
+.schedule {
+  text-align: center;
+  margin-top: 50px;
+}
