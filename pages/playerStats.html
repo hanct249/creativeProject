@@ -3,7 +3,7 @@
 <head>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="/styles1.css" />
-  <title>Creative Project</title>
+  <title>Get Player Stats</title>
 </head>
 
 <body>
@@ -20,7 +20,6 @@
         <li class="nav-item">
           <a class="nav-link" href="/pages/schedule.html">Current Bracket</a>
         </li>
-
         <li class="nav-item">
           <a class="nav-link" href="/pages/TeamRankings.html">Team Rankings</a>
         </li>
@@ -33,18 +32,16 @@
       </ul>
     </div>
   </nav>
-
-    <h1>NBA Power Rankings (of 9/26/20)</h1>
-
-
-  <div class = "team list">
-    <ol>
-      <li>Los Angeles Lakers</li>
-      <li>Miami Heat</li>
-      <li>Boston Celtics</li>
-      <li>Denver Nuggets</li>
-    </ol>
+  <form class='search'>
+    <label>Enter a current player's name</label>
+    <input id="playerInput" type="text"></input><br/>
+    <input id="playerSubmit" type="submit" value="Submit"></input>
+  </form>
+  <div id="playerResults">
   </div>
+  <div id="playerStat">
+  </div>
+
 
   <div class="footer">
     <a class="nav-link" href="https://github.com/hanct249/creativeProject.git">GitHub</a>
@@ -53,6 +50,8 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://momentjs.com/downloads/moment.js"></script>
+  <script src="../script.js"></script>
 </body>
 
 

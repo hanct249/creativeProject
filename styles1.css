@@ -35,7 +35,36 @@
   text-align: center;
   border-bottom: 5px solid black;
 }
+.search {
+  font-family: Helvetica;
+  text-align: center;
+  margin: 20px;
+ }
+input[type=text] {
+  margin: 20px 0;
+   box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+   font-size: 20px;
+}
+input[type=submit] {
+  background-color:#EC8F32;
+  border:none;
+  color:black;
+  cursor:pointer;
+  padding: 10px 20px;
+}
 .schedule {
   text-align: center;
   margin-top: 50px;
+}
+#playerResults {
+  color:white;
+  background-color: black;
+  font-family: Helvetica;
+  text-align:center;
+}
+#playerStat {
+  font-size: 20px;
+  text-align:center;
+  font-family: Helvetica;
+  background-color:#D45F5F;
 }
